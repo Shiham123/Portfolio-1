@@ -1,0 +1,232 @@
+/* for every mobile layout */
+
+@media screen and (max-width: 425px) {
+  .header-content {
+    min-height: 100vh;
+    padding: 3rem 0;
+    .right-header {
+      grid-row: 1;
+      padding-left: 1rem !important;
+      font-size: 1rem !important;
+      padding-bottom: 1rem !important;
+      padding-right: 1rem;
+    }
+
+    .left-header {
+      padding: 0;
+      .h-shape {
+        display: none;
+      }
+      .image {
+        margin-left: -1.5rem;
+        width: 300px;
+        height: 300px;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .about-container {
+    grid-template-columns: 1fr;
+    .left-about {
+      font-size: 1rem;
+      h4 {
+        font-size: 1rem;
+        margin-left: -1.7rem;
+      }
+      p {
+        margin-left: -2rem;
+        font-size: 0.7rem;
+        margin-right: -8rem !important;
+      }
+      .custom-about-btn {
+        margin-left: -2rem;
+        font-size: 0.5rem;
+        padding-right: 31px !important;
+      }
+    }
+    .right-about {
+      grid-template-columns: 1fr;
+      margin: 5rem 0rem;
+      .about-item {
+        margin-left: -2.5rem;
+        margin-right: -0.5rem;
+      }
+    }
+  }
+
+  .about-stats {
+    grid-template-columns: 1fr;
+    .progress-bars {
+      grid-template-columns: 1fr;
+      margin-left: -2rem;
+    }
+  }
+
+  .timeline {
+    grid-template-columns: 1fr;
+    .timeline-item {
+      margin-left: -2.5rem;
+    }
+  }
+
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-title {
+    h2 {
+      font-size: 2.5rem !important;
+      span {
+        font-size: 2.5rem !important;
+      }
+      .bg-text {
+        font-size: 3.5rem !important;
+        bottom: -81%;
+        right: -90%;
+      }
+    }
+  }
+
+  .controls {
+    top: auto;
+    bottom: 0;
+    flex-direction: row;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: var(--color-grey-5);
+    .control {
+      margin: 1rem 0.3rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-content {
+    grid-template-columns: 1fr;
+    .left-header {
+      padding-left: 2.5rem;
+      .h-shape {
+        display: none;
+      }
+      .image {
+        border-radius: 14px;
+      }
+    }
+    .right-header {
+      padding-left: 6rem;
+      font-size: 1rem;
+      padding-bottom: 5rem;
+    }
+  }
+
+  .main-title {
+    h2 {
+      font-size: 2rem;
+      span {
+        font-size: 2rem;
+      }
+      .bg-text {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .about-container {
+    grid-template-columns: 1fr;
+    .left-about {
+      p {
+        padding-right: 0rem;
+      }
+      .custom-about-btn {
+        padding-left: 0rem;
+        padding-right: 18.2rem;
+      }
+    }
+  }
+
+  .portfolios {
+    grid-template-columns: 1fr;
+    .portfolio-item {
+      padding: 0.5rem;
+    }
+  }
+
+  .timeline {
+    grid-template-columns: 1fr;
+  }
+
+  .blogs {
+    grid-template-columns: 1fr;
+    .blog {
+      margin: 0 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main-title {
+    h2 {
+      font-size: 2.5rem;
+      span {
+        font-size: 2.5rem;
+      }
+      .bg-text {
+        font-size: 4rem;
+      }
+    }
+  }
+
+  .about-container {
+    grid-template-columns: 1fr;
+    .right-about {
+      padding-top: 2rem;
+    }
+    .left-about {
+      .custom-right-btn {
+        padding-right: 582.5px;
+      }
+    }
+  }
+
+  .portfolios {
+    padding-right: 1.5rem;
+  }
+
+  .blogs {
+    padding-right: 1.5rem;
+    .blog-text {
+      font-size: 13px;
+      line-height: 1.5rem;
+    }
+  }
+}
+
+@media (min-width: 1025) and (max-width: 1440px) {
+  .main-title {
+    h2 {
+      font-size: 3rem;
+      span {
+        font-size: 3rem;
+      }
+      .bg-text {
+        font-size: 6rem;
+        left: 50%;
+      }
+    }
+  }
+
+  .about-container .left-about .custom-about-btn {
+    margin-right: 1rem;
+  }
+}
+
+// tablet responsive
+
+@media screen and (max-width: 425px) {
+}
